@@ -35,7 +35,7 @@ after_build:
     - set PATH=%PATH%;%CD%\install\bin
 
 test_script:
-    - scram_tests
+    # - scram_tests
     - scram --version
     - scram input\TwoTrain\two_train.xml
     - cd build
